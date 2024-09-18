@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ea823cdb2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            .cadastro {
+                width: 100%;
+                height: 50px;
+                background-color: #fff;
+                border: none;
+                border-radius: 40px;
+                cursor: pointer;
+                font-size: 16px;
+                color: #333;
+                font-weight: 600;
+                box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+                margin-top: 20px;
+            }
+
+            .cadastro:hover {
+                background-color: transparent;
+                border: 2px solid rgba(255, 255, 255, .2);
+                color: #fff;
+            }
+
+            .fazer-login {
+                text-align: center;
+                margin: 30px 0 0 0;
+            }
+
+            .fazer-login a {
+                text-decoration: none;
+                color: #d604f1;
+                font-weight: 600;
+            }
+
+            .fazer-login a:hover {
+                text-decoration: underline;
+            }
+        }
+    </style>
+    <title>Adidas</title>
+</head>
+<body>
+    <main class="container">
+        <form>
+            <h1>Bem-Vindo</h1>
+            <h2>É novo aqui? Cadastre-se abaixo</h2>
+            <div class="input-box">
+                <input placeholder="Usuário">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input placeholder="Email" type="email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input placeholder="Senha" type="password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <button type="submit" class="cadastro">Cadastrar</button>
+
+            <div class="fazer-login">
+                <p>Já possui conta? <a href="login.html">Faça login</a></p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
